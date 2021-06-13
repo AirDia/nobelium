@@ -2,7 +2,7 @@ const BLOG = {
   title: 'ArtDia的小站',
   author: 'ArtDia',
   email: '751681748@qq.com',
-  link: 'https://nobelium.vercel.app',
+  link: 'https://artdia.top',
   description: 'This gonna be an awesome website.',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP']
   appearance: 'auto', // ['light', 'dark', 'auto'],
@@ -15,8 +15,8 @@ const BLOG = {
   sortByDate: false,
   showAbout: true, // WIP
   showArchive: true, // WIP
-  autoCollapsedNavBar: false, // the automatically collapsed navigation bar
-  socialLink: 'https://twitter.com/craigaryhart',
+  autoCollapsedNavBar: true, // the automatically collapsed navigation bar
+  socialLink: 'https://space.bilibili.com/340828830',
   seo: {
     keywords: ['Blog', 'Website', 'Notion'],
     googleSiteVerification: '' // Remove the value or replace it with your own google site verification code
@@ -31,7 +31,7 @@ const BLOG = {
       domainId: '' // e.g '0e2257a8-54d4-4847-91a1-0311ea48cc7b'
     },
     gaConfig: {
-      measurementId: 'ArtDia-7a69a86ea02c4505880c82b1b02ba7cb' // e.g: G-XXXXXXXXXX
+      measurementId: '' // e.g: G-XXXXXXXXXX
     }
   },
   comment: {
